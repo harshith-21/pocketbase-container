@@ -22,8 +22,12 @@ docker buildx build --platform linux/amd64,linux/arm64,linux/arm/v7 \
 - linux/arm/v7: Raspberry Pi 2/3, older ARM devices
 
 ## NOTE
-> tried so much, didnt work. using default linux/amd64 for arch
+Tried so much, didnt work. using default linux/amd64 for arch
 
-docker build -t harshith21/pocketbase:v0.22.22 -t harshith21/pocketbase:latest --push .
+> docker build -t harshith21/pocketbase:v0.22.22 -t harshith21/pocketbase:latest --push .
 
-
+default useremail and password
+```sh
+user-email :admin@admin.com 
+password: adminadmin
+```
